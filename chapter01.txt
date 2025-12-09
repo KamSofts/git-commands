@@ -1,0 +1,11 @@
+sudo apt update
+sudo apt install git
+git --version
+cd ~
+mkdir git-course
+cd git-course/
+git config --global user.name "kamsofts"
+git config --global user.email "kamsofts@gmail.com"
+git config --global init.defaultBranch main
+git init 
+# README.md file created

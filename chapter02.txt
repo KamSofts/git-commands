@@ -1,0 +1,7 @@
+touch chapter01.txt
+git status
+git add README.md
+git status
+git commit -m "README.md"
+git log
+git status

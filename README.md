@@ -29,13 +29,13 @@ git status
 git commit -m "README.md"
 git log
 git status
-cat README.md | tail -9 > chapter02.txt
 ```
 
 ## chapter - 3
 ```bash
+touch chapter02.txt
 git add .
-git commit -m "chapter02.txt" 
+git commit -m "chapter02" 
 git log 
 
 #copy hash value for first commit "README.md"

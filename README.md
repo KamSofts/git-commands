@@ -86,4 +86,5 @@ git add chapter04.txt
 git status
 git restore --staged chapter04.txt
 git status
+git commit -m "chapter04"
 ```

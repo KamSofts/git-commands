@@ -1,0 +1,13 @@
+touch chapter03.txt
+git status
+git add .
+git status
+git commit -m "chapter03"
+git log
+touch chapter04.txt
+#RESTORE
+git status
+git add chapter04.txt
+git status
+git restore --staged chapter04.txt
+git status

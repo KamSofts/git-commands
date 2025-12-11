@@ -1,0 +1,22 @@
+#from main
+git branch node1
+git checkout node1
+echo "git branch tutorial, file created and modified" > node1.txt
+git add note1.txt
+git commit -m "node1-branch"
+
+#create and checkout branch from node1
+git checkout -b node2
+
+#git branch new-branch-name old-branch-name
+#example : create node3 branch from main
+git branch node3 main
+
+#add to remote repo
+git push -u origin node1
+or 
+git push --set-upstream origin node1
+
+#after (node1-branch) pull request node1.txt not added main branch
+git branch --list
+git checkout main
